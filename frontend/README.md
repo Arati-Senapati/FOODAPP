@@ -1,12 +1,44 @@
-# React + Vite
+🍕 FoodApp – React Food Ordering App
+This is the *React.js frontend* for *FoodApp*.
+FoodApp is a modern and responsive food ordering web application built with React.js. Users can browse food items, add them to a cart, and place orders — all with a clean and user-friendly interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠 Tech Stack
+- *React.js*
+- *Vite* (or Create React App)
+- *CSS* (custom styles)
+- *React Router DOM*
+- *Context API* for state management
 
-Currently, two official plugins are available:
+📁 Folder Structure
+frontend/ ├── public/            # Static assets 
+          ├── src/   
+            ├── assets/          # Images and icons 
+            ├── components/      # Reusable UI components   
+            ├── Context/         # Global context    
+            ├── Pages/           # Page components like Home, Cart, PlaceOrder    
+            ├── App.jsx 
+            └── main.jsx 
+          ├── package.json 
+          ├── vite.config.js 
+          └── README.md
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔥 Features
+  🍽️ Explore menu with categories
+  📦 Add/Remove items from Cart
+  📊 Dynamic cart total calculation
+  🧠 Global state management using React Context API
+  🎨 Custom CSS styling
+  📱 Fully responsive design
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Getting Started
+To run the project locally:
+```bash
+1. Clone the repository
+git clone https://github.com/Arati-Senapati/foodapp.git
+2. Navigate to the frontend folder
+cd foodapp/frontend
+3. Install dependencies
+npm install
+4. Start the development server
+npm run dev
+Then open your browser and go to http://localhost:5173
