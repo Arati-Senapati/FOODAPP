@@ -1,0 +1,62 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.navbar .logo{
+    width: 150px;
+}
+.navbar-menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #49557e;
+}
+.navbar-right{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.navbar button{
+    padding: 10px 20px;
+    border: 1px solid tomato;
+    border-radius: 50px;
+    background: transparent;
+    font-size: 16px;
+    color: #49557e;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navbar button:hover{
+    background-color: #fff4f2;
+}
+.navbar-search_icon{
+    position: relative;
+}
+.navbar-search_icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    right: -8px;
+    top: -8px;
+}
+.navbar .active{
+    border-bottom: 2px solid #49557e;
+    padding-bottom: 2px;
+}
+.navbar li{
+    cursor: pointer;
+}
+
+/* now we will make Responsive  */
+
+/* @media(max-width:1050px){
+    .navbar .logo{
+        width: 140px;
+    }
+} */
